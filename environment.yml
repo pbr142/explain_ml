@@ -1,0 +1,27 @@
+name: explain_ml
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - black
+  - catboost
+  - click
+  - coverage
+  - flake8
+  - jupyterlab
+  - lightgbm
+  - matplotlib
+  - ngboost
+  - pandas
+  - pip
+  - pyarrow
+  - pylint
+  - pytest
+  - python
+  - python-dotenv
+  - scikit-learn
+  - seaborn
+  - Sphinx
+  - xgboost
+  - pip:
+      - -e .
